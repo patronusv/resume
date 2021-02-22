@@ -16,7 +16,7 @@ export default {
   projects: [
     { link: 'https://patronusv.github.io/parcel-project-template/', techStack: 'HTML, CSS' },
     { link: 'https://patronusv.github.io/js-teamproject-olx/', techStack: 'Javascript' },
-    { link: 'https://github.com/patronusv/react-teamproject-slimmom', techStack: 'React.js' },
+    { link: 'https://team3-slimmom.netlify.app', techStack: 'React.js' },
   ],
   work: [
     {
