@@ -33,23 +33,23 @@ const AboutMe = () => {
 
       <div>
         <h3 className="about-me-title">Work Experience</h3>
-
-        <div>
-          <h4 className="profession-title">
-            Front-End Developer <span className="profession-company">Student at GoIT</span>
-          </h4>
-          <span className="about-me-period">
-            September 2020 - up to now <span className="about-me-divider">|</span> Ukraine
-          </span>
-          {/* <ul className="profession-duties">
-            <li className="profession-duties-item">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <ul className="list">
+          {data.work.map((item, idx) => (
+            <li>
+              <h4 className="profession-title">
+                {item.title} <span className="profession-company">{item.company}</span>
+              </h4>
+              <span className="about-me-period">
+                {item.period} <span className="about-me-divider">|</span> {item.country}
+              </span>
+              <ul className="profession-duties">
+                {item.duties.map(duty => (
+                  <li className="profession-duties-item">{duty}</li>
+                ))}
+              </ul>
             </li>
-            <li className="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className="profession-duties-item">Risus commodo viverra maecenas.</li>
-            <li className="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-          </ul> */}
-        </div>
+          ))}
+        </ul>
       </div>
 
       <div className="education-container">
