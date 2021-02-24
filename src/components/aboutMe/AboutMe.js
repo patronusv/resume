@@ -19,13 +19,16 @@ const AboutMe = () => {
         <ol>
           {data.projects.map((item, idx) => (
             <li className="projects-item" key={idx}>
-              <a className="projects-link" href={item.link} rel="noreferrer noopener" target="_blank">
-                {item.link}
-              </a>
-              <span className="dots"></span>
-              <span>
-                <b>[</b> <span className="tech-name">{item.techStack}</span> <b>]</b>
-              </span>
+              <div className="projects-link-container">
+                <a className="projects-link" href={item.link} rel="noreferrer noopener" target="_blank">
+                  {item.link}
+                </a>
+                <span className="dots"></span>
+                <span>
+                  <b>[</b> <span className="tech-name">{item.techStack}</span> <b>]</b>
+                </span>
+              </div>
+              <p className="description">{item.description}</p>
             </li>
           ))}
         </ol>

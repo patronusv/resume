@@ -41,6 +41,17 @@ const Sidebar = () => {
           ))}
         </ul>
       </div>
+
+      <div className="sidebar-container">
+        <h3 className="sidebar-title">Languges</h3>
+        <ul>
+          {data.languageSkills.map(item => (
+            <li className="sidebar-list-item">
+              <span className="sidebar-list-text">{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </SidebarStyled>
   );
 };

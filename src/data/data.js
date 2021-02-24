@@ -10,13 +10,27 @@ export default {
     { icon: Git(), link: 'https://github.com/patronusv', text: 'github.com/patronusv' },
     { icon: LinkedIn(), link: 'https://www.linkedin.com/in/viktor-gorokhov/', text: 'linkedin.com/in/viktor-gorokhov/' },
   ],
-  techSkills: ['HTML5', 'CSS3', 'GIT', 'WebPack', 'JavaScript', 'React.js'],
+  techSkills: ['HTML5', 'CSS3', 'GIT', 'WebPack', 'JavaScript', 'React.js', 'Scrum', 'Agile'],
   // 'Node.js',
-  softSkills: ['Scrum', 'Agile', 'GTD', 'Teamwork'],
+  softSkills: ['Responsibility', 'Critical-thinking', 'Problem solving', 'Result-oriented', 'Teamwork'],
+  languageSkills: ['English - fluent', 'Ukrainian - native', 'Russian - native'],
   projects: [
-    { link: 'https://patronusv.github.io/parcel-project-template/', techStack: 'HTML, CSS' },
-    { link: 'https://patronusv.github.io/js-teamproject-olx/', techStack: 'Javascript' },
-    { link: 'https://team3-slimmom.netlify.app', techStack: 'React.js' },
+    {
+      link: 'https://patronusv.github.io/parcel-project-template/',
+      techStack: 'HTML, CSS',
+      description: 'The idea of this project is an adaptive webpage on english tutoring made using knowledge of HTML and CSS(SASS).',
+    },
+    {
+      link: 'https://patronusv.github.io/js-teamproject-olx/',
+      techStack: 'Javascript',
+      description: 'The idea of this project is an adaptive functioning callboard web-app made using knowledge of Javascript.',
+    },
+    {
+      link: 'https://team3-slimmom.netlify.app',
+      techStack: 'React.js',
+      description:
+        'The idea of this project is an adaptive functioning web-app for diet-planning and calories calculation made using knowledge of React and Redux.',
+    },
   ],
   work: [
     {

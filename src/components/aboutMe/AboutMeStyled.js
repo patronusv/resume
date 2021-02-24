@@ -35,6 +35,11 @@ const AboutMeStyled = styled.div`
     line-height: 24px;
     margin-bottom: 10px;
   }
+  .projects-link-container {
+    display: flex;
+    align-items: baseline;
+    /* margin-left: 17px; */
+  }
   .projects-link {
     color: #595959;
     font-size: 14px;
@@ -46,6 +51,10 @@ const AboutMeStyled = styled.div`
   .projects-link:focus {
     color: #ff6b08;
   }
+  .projects-container .description {
+    margin-top: 5px;
+  }
+
   .tech-name {
     color: #595959;
     font-size: 14px;
@@ -59,10 +68,14 @@ const AboutMeStyled = styled.div`
     font-weight: 100;
   }
   .projects-item {
-    display: flex;
-    align-items: baseline;
     font-weight: 700;
-    margin-left: 17px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .projects-item::marker {
+    margin-left: 10px;
+  }
+  .projects-item:not(:last-child) {
+    margin-bottom: 20px;
   }
   .profession-title {
     font-size: 16px;
