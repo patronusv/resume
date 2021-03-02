@@ -2,6 +2,7 @@ import Git from '../assets/icons/Git';
 import LinkedIn from '../assets/icons/LinkedIn';
 import Mail from '../assets/icons/Mail';
 import Tel from '../assets/icons/Tel';
+import Telegram from '../assets/icons/Telegram';
 
 export default {
   contacts: [
@@ -9,6 +10,7 @@ export default {
     { icon: Mail(), link: 'mailto:patronusv@gmail.com', text: 'patronusv@gmail.com' },
     { icon: Git(), link: 'https://github.com/patronusv', text: 'github.com/patronusv' },
     { icon: LinkedIn(), link: 'https://www.linkedin.com/in/viktor-gorokhov/', text: 'linkedin.com/in/viktor-gorokhov/' },
+    { icon: Telegram(), link: 'https://t.me/ViktorGorokhov', text: '@ViktorGorokhov' },
   ],
   techSkills: ['HTML5', 'CSS3', 'GIT', 'WebPack', 'JavaScript', 'React.js', 'Scrum', 'Agile'],
   // 'Node.js',
