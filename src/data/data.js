@@ -33,14 +33,20 @@ export default {
       description:
         'The idea of this project is an adaptive functioning web-app for diet-planning and calories calculation made using knowledge of React and Redux.',
     },
+    {
+      link: 'https://bookreading-team2.netlify.app',
+      techStack: 'Node.js, React.js',
+      description:
+        'The idea of this project is an adaptive functioning web-app for creating your library and planning trainings where you must read books in a certain period you set. Made using knowledge of Node.js and React.',
+    },
   ],
   work: [
     {
       title: 'Front-End Developer',
       company: 'Student at GoIT',
-      period: 'September 2020 - up to now',
+      period: 'September 2020 - May 2021',
       country: 'Ukraine',
-      duties: ['Teamlead in 3 team projects.'],
+      duties: ['Teamlead in 4 team projects.'],
     },
     {
       title: 'Junior Category Manager',
@@ -75,7 +81,7 @@ export default {
     {
       establishment: 'GoIT',
       speciality: 'Fullstack JS Developer',
-      period: 'September 2020 - April 2021',
+      period: 'September 2020 - May 2021',
       country: 'Ukraine',
     },
     {

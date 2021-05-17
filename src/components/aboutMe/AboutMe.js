@@ -9,8 +9,8 @@ const AboutMe = () => {
         <h2 className="profession">Front-End Developer</h2>
         <h2 className="profession">Kyiv, Ukraine</h2>
         <p className="description">
-          Aspiring graduate of Fullstack development courses looking for a position as a junior frontend developer to provide great results for my
-          future team and improve my skills as a developer.
+          Aspiring graduate of Fullstack development courses looking for a position as a front-end developer to provide great results for my future
+          team and improve my skills as a developer.
         </p>
       </div>
 
