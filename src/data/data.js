@@ -12,7 +12,7 @@ export default {
     { icon: LinkedIn(), link: 'https://www.linkedin.com/in/viktor-gorokhov/', text: 'linkedin.com/in/viktor-gorokhov/' },
     { icon: Telegram(), link: 'https://t.me/ViktorGorokhov', text: '@ViktorGorokhov' },
   ],
-  techSkills: ['HTML5', 'CSS3', 'GIT', 'WebPack', 'JavaScript', 'React.js', 'Scrum', 'Agile'],
+  techSkills: ['HTML5', 'CSS3', 'GIT', 'WebPack', 'JavaScript', 'React.js', 'Node.js', 'Scrum', 'Agile'],
   // 'Node.js',
   softSkills: ['Responsibility', 'Critical-thinking', 'Problem solving', 'Result-oriented', 'Teamwork'],
   languageSkills: ['English - fluent', 'Ukrainian - native', 'Russian - native'],
@@ -42,7 +42,7 @@ export default {
   ],
   work: [
     {
-      title: 'Front-End Developer',
+      title: 'Fullstack Developer',
       company: 'Student at GoIT',
       period: 'September 2020 - May 2021',
       country: 'Ukraine',

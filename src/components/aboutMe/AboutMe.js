@@ -6,10 +6,10 @@ const AboutMe = () => {
     <AboutMeStyled>
       <div className="info-container">
         <h1 className="name">Viktor Gorokhov</h1>
-        <h2 className="profession">Front-End Developer</h2>
+        <h2 className="profession">Front-end Developer</h2>
         <h2 className="profession">Kyiv, Ukraine</h2>
         <p className="description">
-          Aspiring graduate of Fullstack development courses looking for a position as a front-end developer to provide great results for my future
+          Aspiring graduate of Fullstack development courses looking for a position as a Front-end developer to provide great results for my future
           team and improve my skills as a developer.
         </p>
       </div>
